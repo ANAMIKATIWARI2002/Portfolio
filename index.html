@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Anamika Tiwari</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skill Set</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Anamika Tiwari</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpeg" alt="Anamika Tiwari profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title1">
+          <span>Anamika</span>
+          <span>Tiwari</span>
+        </h1>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">Download Resume</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/anamika-tiwari290220/'" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/ANAMIKATIWARI2002'" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/avatar1.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers1">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech. Computer Science<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hey there! I'm Anamika, a B.Tech student at Graphic Era University, currently achieving a GPA of 8.94 . Proficient in Python, JavaScript, C, C++, HTML, SQL, and Java, NLP, AI, and GUI development.
+I excel in tools like Tkinter, MySql, Jupyter, TensorFlow, and Keras, bringing adaptability to the table. As an active contributor to GDSC KIIT and a leader in the KAVACH-2023 Hackathon, I leverage strategic thinking in problem-solving. 
+<br>  I'm not just about tech. Beyond coding, I've achieved success on the basketball court, securing the third position in the national under-19 championship. My role in the Organizing and Management Committee of an event at Graphic Era University underscores my commitment to teamwork and flawless event execution.
+
+<br>My strengths extend beyond coding languages, they lie in problem-solving, leadership, and effective communication. I'm dedicated to achieving excellence both personally and within a team. Let's connect and explore how my diverse skills can add value to your projects!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skill Set</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>Logic Building</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div align=left >
+                  <h3>Problem solving</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div align=left >
+                  <h3>leadership</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div align=left >
+                  <h3>Time Management</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img align="right" alt="Coding" width="500" src="https://www.careerguide.com/career/wp-content/uploads/2021/02/healthcare_800x600_newcolors-1.gif">
+            </div>
+            <h2 class="experience-sub-title project-title">Hospital Management System</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ANAMIKATIWARI2002/HOSPITAL_MANAGEMENT_SYSTEM'"
+              >
+              Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img align="right" alt="Coding" width="500" src="https://cdn.dribbble.com/users/2203467/screenshots/6334397/dribbble-animation-e-commerce-v1.gif">
+            </div>
+            <h2 class="experience-sub-title project-title">Ecommerce Website</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ANAMIKATIWARI2002/Responsive_Ecommerce_site-Action_Figures-'"
+              >
+              Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img align="center" alt="Coding" width="500" src="https://www.insurebuddy.ai/img/BankBuddy_nlp.gif">
+            </div>
+            <h2 class="experience-sub-title project-title">Natural language Processing</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ANAMIKATIWARI2002/duplicate_question_pairs'"
+              >
+                Github
+            </button>
+          </div>
+        </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">tiwarianamika2002@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/anamika-tiwari290220/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skill Set</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Anamika Tiwari. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
